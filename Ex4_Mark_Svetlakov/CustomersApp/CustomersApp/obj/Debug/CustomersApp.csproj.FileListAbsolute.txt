@@ -1,0 +1,2 @@
+C:\Users\marks2\Desktop\HW\4\CustomersApp\CustomersApp\bin\Debug\CustomersApp.exe.config
+C:\Users\marks2\Desktop\GitSource\MarkSvetlakovCodeValue\Ex4_Mark_Svetlakov\CustomersApp\CustomersApp\bin\Debug\CustomersApp.exe.config
