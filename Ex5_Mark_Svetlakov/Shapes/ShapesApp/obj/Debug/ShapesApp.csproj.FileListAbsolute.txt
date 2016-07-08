@@ -1,0 +1,24 @@
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapesApp\bin\Debug\ShapesApp.exe
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapesApp\bin\Debug\ShapesApp.pdb
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapesApp\bin\Debug\ShapeLib.dll
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapesApp\bin\Debug\ShapeLib.pdb
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapesApp\obj\Debug\ShapesApp.exe
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapesApp\bin\Debug\ShapesApp.exe
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapesApp\bin\Debug\ShapesApp.pdb
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapesApp\bin\Debug\ShapeLib.dll
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapesApp\bin\Debug\ShapeLib.pdb
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Новая папка\Shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\Mark\Desktop\Новая папка\Shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\Mark\Desktop\Новая папка\Shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\Mark\Desktop\Новая папка\Shapes\ShapesApp\bin\Debug\ShapesApp.exe
+C:\Users\Mark\Desktop\Новая папка\Shapes\ShapesApp\bin\Debug\ShapesApp.pdb
+C:\Users\Mark\Desktop\Новая папка\Shapes\ShapesApp\bin\Debug\ShapeLib.dll
+C:\Users\Mark\Desktop\Новая папка\Shapes\ShapesApp\bin\Debug\ShapeLib.pdb
+C:\Users\Mark\Desktop\Новая папка\Shapes\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+c:\users\marks2\documents\visual studio 2015\Projects\Personnel\Personnel\bin\Debug\Personnel.exe.config
+c:\users\marks2\documents\visual studio 2015\Projects\Personnel\Personnel\bin\Debug\Personnel.exe
+c:\users\marks2\documents\visual studio 2015\Projects\Personnel\Personnel\bin\Debug\Personnel.pdb
+c:\users\marks2\documents\visual studio 2015\Projects\Personnel\Personnel\obj\Debug\Personnel.csprojResolveAssemblyReference.cache
+c:\users\marks2\documents\visual studio 2015\Projects\Personnel\Personnel\obj\Debug\Personnel.exe
+c:\users\marks2\documents\visual studio 2015\Projects\Personnel\Personnel\obj\Debug\Personnel.pdb
+c:\users\marks2\documents\visual studio 2015\Projects\Personnel\Personnel\bin\Debug\Names.txt
+C:\Users\marks2\Desktop\HW\5\Personnel\Personnel\bin\Debug\Personnel.exe.config
+C:\Users\marks2\Desktop\HW\5\Personnel\Personnel\obj\Debug\Personnel.exe
+C:\Users\marks2\Desktop\HW\5\Personnel\Personnel\obj\Debug\Personnel.pdb
+C:\Users\marks2\Desktop\HW\5\Personnel\Personnel\bin\Debug\Names.txt
+C:\Users\marks2\Desktop\HW\5\Personnel\Personnel\bin\Debug\Personnel.exe
+C:\Users\marks2\Desktop\HW\5\Personnel\Personnel\bin\Debug\Personnel.pdb
+C:\Users\marks2\Desktop\HW\5\Personnel\Personnel\obj\Debug\Personnel.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapeLib\bin\Debug\ShapeLib.dll
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapeLib\bin\Debug\ShapeLib.pdb
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapeLib\obj\Debug\ShapeLib.csprojResolveAssemblyReference.cache
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapeLib\obj\Debug\ShapeLib.dll
+c:\users\marks2\documents\visual studio 2015\Projects\Shapes\ShapeLib\obj\Debug\ShapeLib.pdb
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapeLib\bin\Debug\ShapeLib.dll
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapeLib\bin\Debug\ShapeLib.pdb
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapeLib\obj\Debug\ShapeLib.csprojResolveAssemblyReference.cache
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapeLib\obj\Debug\ShapeLib.dll
+C:\Users\marks2\Desktop\HW\5\Shapes\ShapeLib\obj\Debug\ShapeLib.pdb

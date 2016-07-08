@@ -1,0 +1,14 @@
+Answer to 2. 
+Fusion goes to App Base directory to find assemblies, if some of related assemblies not found in application base directory,
+so fusion goes to assembly name sub-directory, in my case my dll name is ShapeLib.dll so if i create the sub - directory calls "ShapesLib" (like says exercise),
+i got the "File Not Found" exception. But if i renaming directory to "ShapeLib" -  app working properly, because sub-directory is same as my dll.
+
+Answer to 3.
+As i can see from "fuslogvw.exe" tool, there is some legal directories that Fusion can search for assemblies, no one of them contains "Bin",
+so this path need to be added to App.config file in <probing> section, this is the way to locate assemblies that are in different name sub-directories.
+
+Full path for Ordinary Assemblies:
+
+1. Application base directory. - In my case before i moved the "ShapesLib.dll"
+2. Assembly name sub-directory. - In my case from my first answer. If i create same name sub-directory - app should work properly.
+3. <probing> directory. Like in my second answer, after i added "Bin" directory to config file, application working properly.
