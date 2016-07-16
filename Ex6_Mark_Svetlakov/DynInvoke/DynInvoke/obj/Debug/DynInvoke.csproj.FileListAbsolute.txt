@@ -1,0 +1,15 @@
+c:\users\marks2\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\bin\Debug\DynInvoke.exe.config
+c:\users\marks2\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\bin\Debug\DynInvoke.exe
+c:\users\marks2\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\bin\Debug\DynInvoke.pdb
+c:\users\marks2\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\obj\Debug\DynInvoke.csprojResolveAssemblyReference.cache
+c:\users\marks2\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\obj\Debug\DynInvoke.exe
+c:\users\marks2\documents\visual studio 2015\Projects\DynInvoke\DynInvoke\obj\Debug\DynInvoke.pdb
+C:\Users\marks2\Desktop\HW\6\DynInvoke\DynInvoke\bin\Debug\DynInvoke.exe.config
+C:\Users\marks2\Desktop\HW\6\DynInvoke\DynInvoke\obj\Debug\DynInvoke.exe
+C:\Users\marks2\Desktop\HW\6\DynInvoke\DynInvoke\obj\Debug\DynInvoke.pdb
+C:\Users\marks2\Desktop\HW\6\DynInvoke\DynInvoke\obj\Debug\DynInvoke.csprojResolveAssemblyReference.cache
+C:\Users\marks2\Desktop\HW\6\DynInvoke\DynInvoke\bin\Debug\DynInvoke.exe
+C:\Users\marks2\Desktop\HW\6\DynInvoke\DynInvoke\bin\Debug\DynInvoke.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\DynInvoke\DynInvoke\bin\Debug\DynInvoke.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\DynInvoke\DynInvoke\obj\Debug\DynInvoke.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\DynInvoke\DynInvoke\obj\Debug\DynInvoke.pdb

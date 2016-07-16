@@ -1,0 +1,18 @@
+c:\users\marks2\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\bin\Debug\AttribDemo.exe.config
+c:\users\marks2\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\bin\Debug\AttribDemo.exe
+c:\users\marks2\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\bin\Debug\AttribDemo.pdb
+c:\users\marks2\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\obj\Debug\AttribDemo.csprojResolveAssemblyReference.cache
+c:\users\marks2\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\obj\Debug\AttribDemo.exe
+c:\users\marks2\documents\visual studio 2015\Projects\AttribDemo\AttribDemo\obj\Debug\AttribDemo.pdb
+C:\Users\marks2\Desktop\HW\6\AttribDemo\AttribDemo\bin\Debug\AttribDemo.exe.config
+C:\Users\marks2\Desktop\HW\6\AttribDemo\AttribDemo\obj\Debug\AttribDemo.exe
+C:\Users\marks2\Desktop\HW\6\AttribDemo\AttribDemo\obj\Debug\AttribDemo.pdb
+C:\Users\marks2\Desktop\HW\6\AttribDemo\AttribDemo\bin\Debug\AttribDemo.exe
+C:\Users\marks2\Desktop\HW\6\AttribDemo\AttribDemo\bin\Debug\AttribDemo.pdb
+C:\Users\marks2\Desktop\HW\6\AttribDemo\AttribDemo\obj\Debug\AttribDemo.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\AttribDemo\AttribDemo\bin\Debug\AttribDemo.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\AttribDemo\AttribDemo\obj\Debug\AttribDemo.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\AttribDemo\AttribDemo\obj\Debug\AttribDemo.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\AttribDemo\AttribDemo\obj\Debug\AttribDemo.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\AttribDemo\AttribDemo\bin\Debug\AttribDemo.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex6_Mark_Svetlakov\AttribDemo\AttribDemo\bin\Debug\AttribDemo.pdb
