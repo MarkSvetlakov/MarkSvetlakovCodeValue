@@ -1,0 +1,12 @@
+c:\users\marks2\documents\visual studio 2015\Projects\OLinq\OLinq\bin\Debug\OLinq.exe.config
+c:\users\marks2\documents\visual studio 2015\Projects\OLinq\OLinq\bin\Debug\OLinq.exe
+c:\users\marks2\documents\visual studio 2015\Projects\OLinq\OLinq\bin\Debug\OLinq.pdb
+c:\users\marks2\documents\visual studio 2015\Projects\OLinq\OLinq\obj\Debug\OLinq.csprojResolveAssemblyReference.cache
+c:\users\marks2\documents\visual studio 2015\Projects\OLinq\OLinq\obj\Debug\OLinq.exe
+c:\users\marks2\documents\visual studio 2015\Projects\OLinq\OLinq\obj\Debug\OLinq.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\OLinq\OLinq\bin\Debug\OLinq.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\OLinq\OLinq\obj\Debug\OLinq.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\OLinq\OLinq\obj\Debug\OLinq.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\OLinq\OLinq\bin\Debug\OLinq.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\OLinq\OLinq\bin\Debug\OLinq.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\OLinq\OLinq\obj\Debug\OLinq.csprojResolveAssemblyReference.cache

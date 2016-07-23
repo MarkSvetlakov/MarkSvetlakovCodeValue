@@ -1,0 +1,15 @@
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\XLinq\XLinq\bin\Debug\XLinq.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\XLinq\XLinq\bin\Debug\XLinq.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\XLinq\XLinq\bin\Debug\XLinq.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\XLinq\XLinq\bin\Debug\XLinq.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\XLinq\XLinq\obj\Debug\XLinq.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\XLinq\XLinq\obj\Debug\XLinq.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\XLinq\XLinq\obj\Debug\XLinq.pdb
+C:\Users\CodeValueUser\Desktop\New folder\XLinq\XLinq\bin\Debug\XLinq.exe.config
+C:\Users\CodeValueUser\Desktop\New folder\XLinq\XLinq\obj\Debug\XLinq.exe
+C:\Users\CodeValueUser\Desktop\New folder\XLinq\XLinq\obj\Debug\XLinq.pdb
+C:\Users\CodeValueUser\Desktop\New folder\XLinq\XLinq\obj\Debug\XLinq.csprojResolveAssemblyReference.cache
+C:\Users\CodeValueUser\Desktop\New folder\XLinq\XLinq\bin\Debug\XLinq.exe
+C:\Users\CodeValueUser\Desktop\New folder\XLinq\XLinq\bin\Debug\XLinq.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\XLinq\XLinq\bin\Debug\mscorlib.xml
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex7_Mark_Svetlakov\XLinq\XLinq\bin\Debug\sorted.xml

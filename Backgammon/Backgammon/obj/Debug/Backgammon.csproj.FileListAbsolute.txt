@@ -1,0 +1,6 @@
+C:\Users\Mark\Documents\Visual Studio 2015\Projects\Backgammon\Backgammon\bin\Debug\Backgammon.exe.config
+C:\Users\Mark\Documents\Visual Studio 2015\Projects\Backgammon\Backgammon\bin\Debug\Backgammon.exe
+C:\Users\Mark\Documents\Visual Studio 2015\Projects\Backgammon\Backgammon\bin\Debug\Backgammon.pdb
+C:\Users\Mark\Documents\Visual Studio 2015\Projects\Backgammon\Backgammon\obj\Debug\Backgammon.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2015\Projects\Backgammon\Backgammon\obj\Debug\Backgammon.exe
+C:\Users\Mark\Documents\Visual Studio 2015\Projects\Backgammon\Backgammon\obj\Debug\Backgammon.pdb
