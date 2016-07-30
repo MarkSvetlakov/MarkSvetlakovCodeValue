@@ -1,0 +1,12 @@
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\SyncDemo\SyncDemo\bin\Debug\SyncDemo.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\SyncDemo\SyncDemo\bin\Debug\SyncDemo.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\SyncDemo\SyncDemo\bin\Debug\SyncDemo.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\SyncDemo\SyncDemo\obj\Debug\SyncDemo.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\SyncDemo\SyncDemo\obj\Debug\SyncDemo.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\SyncDemo\SyncDemo\obj\Debug\SyncDemo.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex8_Mark_Svetlakov\SyncDemo\SyncDemo\bin\Debug\SyncDemo.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex8_Mark_Svetlakov\SyncDemo\SyncDemo\obj\Debug\SyncDemo.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex8_Mark_Svetlakov\SyncDemo\SyncDemo\obj\Debug\SyncDemo.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex8_Mark_Svetlakov\SyncDemo\SyncDemo\bin\Debug\SyncDemo.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex8_Mark_Svetlakov\SyncDemo\SyncDemo\bin\Debug\SyncDemo.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\Ex8_Mark_Svetlakov\SyncDemo\SyncDemo\obj\Debug\SyncDemo.csprojResolveAssemblyReference.cache
