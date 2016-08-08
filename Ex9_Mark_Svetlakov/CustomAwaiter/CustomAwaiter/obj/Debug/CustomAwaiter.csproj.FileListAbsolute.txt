@@ -1,0 +1,6 @@
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\CustomAwaiter\CustomAwaiter\bin\Debug\CustomAwaiter.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\CustomAwaiter\CustomAwaiter\bin\Debug\CustomAwaiter.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\CustomAwaiter\CustomAwaiter\bin\Debug\CustomAwaiter.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\CustomAwaiter\CustomAwaiter\obj\Debug\CustomAwaiter.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\CustomAwaiter\CustomAwaiter\obj\Debug\CustomAwaiter.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\CustomAwaiter\CustomAwaiter\obj\Debug\CustomAwaiter.pdb

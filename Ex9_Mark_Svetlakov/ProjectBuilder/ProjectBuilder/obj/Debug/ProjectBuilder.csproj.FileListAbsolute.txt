@@ -1,0 +1,6 @@
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\ProjectBuilder\ProjectBuilder\bin\Debug\ProjectBuilder.exe.config
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\ProjectBuilder\ProjectBuilder\bin\Debug\ProjectBuilder.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\ProjectBuilder\ProjectBuilder\bin\Debug\ProjectBuilder.pdb
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\ProjectBuilder\ProjectBuilder\obj\Debug\ProjectBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\ProjectBuilder\ProjectBuilder\obj\Debug\ProjectBuilder.exe
+C:\Users\Mark\Desktop\Homework\MarkSvetlakovCodeValue\ProjectBuilder\ProjectBuilder\obj\Debug\ProjectBuilder.pdb
