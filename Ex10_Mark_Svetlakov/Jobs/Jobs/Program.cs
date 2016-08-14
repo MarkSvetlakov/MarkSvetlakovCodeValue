@@ -18,7 +18,6 @@ namespace Jobs
             {
                 job.AddProcessToJob(Process.Start("notepad.exe"));
                 job.AddProcessToJob(Process.Start("calc.exe"));
-                job.AddProcessToJob(Process.Start("chrome.exe"));
             }
             catch (Win32Exception ex)
             {
