@@ -1,0 +1,12 @@
+c:\users\codevalueuser\documents\visual studio 2013\Projects\Jobs\Jobs\bin\Debug\Jobs.exe.config
+c:\users\codevalueuser\documents\visual studio 2013\Projects\Jobs\Jobs\bin\Debug\Jobs.exe
+c:\users\codevalueuser\documents\visual studio 2013\Projects\Jobs\Jobs\bin\Debug\Jobs.pdb
+c:\users\codevalueuser\documents\visual studio 2013\Projects\Jobs\Jobs\obj\Debug\Jobs.csprojResolveAssemblyReference.cache
+c:\users\codevalueuser\documents\visual studio 2013\Projects\Jobs\Jobs\obj\Debug\Jobs.exe
+c:\users\codevalueuser\documents\visual studio 2013\Projects\Jobs\Jobs\obj\Debug\Jobs.pdb
+C:\Users\Mark\Desktop\CodeValue\Homework\MarkSvetlakovCodeValue\Ex10_Mark_Svetlakov\Jobs\Jobs\bin\Debug\Jobs.exe.config
+C:\Users\Mark\Desktop\CodeValue\Homework\MarkSvetlakovCodeValue\Ex10_Mark_Svetlakov\Jobs\Jobs\obj\Debug\Jobs.exe
+C:\Users\Mark\Desktop\CodeValue\Homework\MarkSvetlakovCodeValue\Ex10_Mark_Svetlakov\Jobs\Jobs\obj\Debug\Jobs.pdb
+C:\Users\Mark\Desktop\CodeValue\Homework\MarkSvetlakovCodeValue\Ex10_Mark_Svetlakov\Jobs\Jobs\bin\Debug\Jobs.exe
+C:\Users\Mark\Desktop\CodeValue\Homework\MarkSvetlakovCodeValue\Ex10_Mark_Svetlakov\Jobs\Jobs\bin\Debug\Jobs.pdb
+C:\Users\Mark\Desktop\CodeValue\Homework\MarkSvetlakovCodeValue\Ex10_Mark_Svetlakov\Jobs\Jobs\obj\Debug\Jobs.csprojResolveAssemblyReference.cache
