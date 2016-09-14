@@ -10,7 +10,7 @@ public struct Product
     public string ProductName { get; private set; }
     public string ManufactureName { get; private set; }
     public string UnitQuantity { get; private set; }
-    public int Quantity { get; private set; }
+    public int Quantity { get; set; }
     public string UnitMeasure { get; private set; }
     public double ProductPrice { get; set; }
 

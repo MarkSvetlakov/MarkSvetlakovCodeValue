@@ -2,7 +2,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="bodyContent" runat="server">
     <div id="content">
-        <h2>תוצאה</h2>
+        <div class="contentHeader">
+        תוצאה
+            </div>
 
         <table class="tg" style="table-layout: fixed; min-width: 600px">
 
@@ -12,7 +14,7 @@
             </tr>
             <tr>
                 <td class="not_found_label" colspan="2">
-                    <asp:Label ID="LBNothingFound" runat="server" Visible="False" EnableViewState="False"></asp:Label>
+                    <asp:Label ID="LBNothingFound" runat="server" Visible="False" EnableViewState="False" Text="לא נמצא דבר"></asp:Label>
                 </td>
             </tr>
 
@@ -43,9 +45,11 @@
                     </tr>
                 </ItemTemplate>
             </asp:Repeater>
-        </table>
-        <p class="actionButtons">
-            <a href="Cart.aspx" class="btn">חזרה</a>
-        </p>
+        <tr>
+                <td colspan="2">
+                    <a href="Cart.aspx" class="btn">חזרה</a>
+                </td>
+            </tr>
+        </table>    
     </div>
 </asp:Content>

@@ -28,10 +28,12 @@ div#menu {
 }
 
 
-#search{
+.contentHeader{
     padding-bottom: 10px;
     margin-bottom: 15px;
     border-bottom: 1px solid silver;
+    font-size: large;
+    font-weight: bold;
 }
 
 
@@ -99,8 +101,19 @@ div#menu a.selected { background-color: #666; color: White; }
 div#menu a:hover { background-color: #CCC; }
 div#menu a.selected:hover { background-color: #666; }
 
+.grid{
+    width: 90%;
+    margin: 0 auto
+}
 
-.tg  {border-collapse:collapse;border-spacing:0;}
+.backButtons{
+    width: 50%;
+    margin: 0 auto;
+    top: 0;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0; width: 50%;
+    margin: 0 auto}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;}
 .tg .tg-8ua6{font-weight:bold;background-color:#343434;color:#ffffff;text-align:center;vertical-align:top}

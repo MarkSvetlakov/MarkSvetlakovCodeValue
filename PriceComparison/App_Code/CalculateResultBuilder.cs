@@ -40,7 +40,10 @@ public struct CalculateResultBuilder
 
         foreach (var item in listOfCartItems)
         {
-            products.Add(item.Product);
+            //TODO: fix if needed
+            Product p = item.Product;
+            p.Quantity = item.Quantity;
+            products.Add(p);
         }
 
 
@@ -79,7 +82,7 @@ public struct CalculateResultBuilder
                                 if (item.ProductId == storeProduct.ProductId)
                                 {
                                     Product product = item;
-                                    product.ProductPrice = storeProduct.ProductPrice;
+                                    product.ProductPrice = storeProduct.ProductPrice * product.Quantity;
                                     newProductList.Add(product);
                                 }
                             }

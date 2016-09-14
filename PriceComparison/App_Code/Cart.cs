@@ -7,18 +7,22 @@ public class Cart
 {
     private List<CartLine> lineCollection = new List<CartLine>();
 
+
     public void AddItem(Product product)
     {
         CartLine line = lineCollection
             .Where(p => p.Product.ProductId == product.ProductId)
             .FirstOrDefault();
-
         if (line == null)
         {
             lineCollection.Add(new CartLine
             {
                 Product = product
             });
+        }
+        else
+        {
+            lineCollection.Where(x => x.Product.ProductId == product.ProductId).FirstOrDefault().Quantity +=1;
         }
     }
 
@@ -38,7 +42,6 @@ public class Cart
     public decimal ComputeTotalValue()
     {
         return lineCollection.Sum(e => e.Product.Quantity * e.Quantity);
-
     }
 
 

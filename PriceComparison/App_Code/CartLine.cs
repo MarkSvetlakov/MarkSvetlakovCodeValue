@@ -6,7 +6,11 @@ using System.Web;
 
 public class CartLine
 {
-    //TODO: add constructor
     public Product Product { get; set; }
-    public int Quantity { get; set; } = 1;
+    public int Quantity { get; set; }
+
+    public CartLine()
+    {
+        this.Quantity = 1;
+    }
 }

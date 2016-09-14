@@ -57,13 +57,4 @@ public partial class Site_Cart : System.Web.UI.Page
     {
         return SessionManager.GetCart(Session).Lines;
     }
-
-    //TODO: do something
-    //public decimal CartTotal
-    //{
-    //    get
-    //    {
-    //        return SessionManager.GetCart(Session).ComputeTotalValue();
-    //    }
-    //}
 }

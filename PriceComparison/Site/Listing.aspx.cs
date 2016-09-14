@@ -122,7 +122,7 @@ public partial class Site_Listing : System.Web.UI.Page
         StringBuilder sb = new StringBuilder();
         foreach (char c in TXBSearch.Text)
         {
-            if (!(c == '*' || c == '?' || c == '+'))
+            if (!(c == '*' || c == '?' || c == '+' || c == '(' || c == ')'))
             {
                 sb.Append(c);
             }

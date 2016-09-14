@@ -2,7 +2,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="bodyContent" runat="server">
     <div id="content">
-        <h2>סל קניות</h2>
+        <div class="contentHeader">
+        סל קניות
+            </div>
         <table class="tg" style="table-layout: fixed; min-width: 700px">
 
             <tr>
@@ -11,6 +13,7 @@
                 <th class="tg-8ua6">כמות</th>
                 <th class="tg-8ua6">פעולה</th>
             </tr>
+            
 
             <asp:Repeater ID="Repeater1" ItemType="CartLine"
                 SelectMethod="GetCartLines" runat="server" EnableViewState="false">
@@ -29,6 +32,7 @@
                 </ItemTemplate>
 
             </asp:Repeater>
+                
 
             <tr>
                 <td class="tg-yw4l" colspan="2">

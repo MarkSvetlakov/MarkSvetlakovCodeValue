@@ -2,7 +2,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="bodyContent" runat="server">
     <div id="content">
-        <h2>תוצאה</h2>
+        <div class="contentHeader">
+        תוצאה
+            </div>
 
         <table class="tg" style="table-layout: fixed; min-width: 600px">
 
@@ -43,9 +45,11 @@
                     </tr>
                 </ItemTemplate>
             </asp:Repeater>
-        </table>
-        <p class="actionButtons">
-            <a href="Cart.aspx" class="btn">חזרה</a>
-        </p>
+        <tr>
+                <td colspan="2">
+                    <a href="Cart.aspx" class="btn">חזרה</a>
+                </td>
+            </tr>
+        </table>    
     </div>
 </asp:Content>

@@ -62,7 +62,6 @@ public class StoreMapper
 
     public void FillStoreList()
     {
-        //TODO: add clear to all mappers?
         this.StoreList.Clear();
         string sql = "SELECT * FROM stores";
         using (DataTable dataTable = _dataAccessLayer.GetDataSet(sql).Tables[0])

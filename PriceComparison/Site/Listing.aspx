@@ -4,7 +4,7 @@
     <div id="content">
     <asp:Panel ID="Panel1" runat="server" Height="600px" ViewStateMode="Inherit">
 
-        <div id="search">
+        <div class="contentHeader">
         <asp:Label ID="LBSearch" runat="server" Text="חיפוש"></asp:Label>
         <asp:TextBox ID="TXBSearch" runat="server"></asp:TextBox>
         <asp:Button CssClass="btn" ID="BTNSearch" runat="server" Text="הצג" OnClick="Search" />
@@ -12,7 +12,7 @@
             </div>
         
 
-            <asp:GridView ID="GridView" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" AllowPaging="True" PageSize="25" OnRowDataBound="OnRowDataBound" OnPageIndexChanging="GridView1_PageIndexChanging" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+            <asp:GridView ID="GridView" CssClass="grid" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" AllowPaging="True" PageSize="25" OnRowDataBound="OnRowDataBound" OnPageIndexChanging="GridView1_PageIndexChanging" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                 <Columns>
                     <asp:ButtonField ControlStyle-CssClass="btn" ButtonType="Button" CommandName="Select" HeaderText="פעולה" ShowHeader="True" Text="הוסף לסל" />
                 </Columns>
