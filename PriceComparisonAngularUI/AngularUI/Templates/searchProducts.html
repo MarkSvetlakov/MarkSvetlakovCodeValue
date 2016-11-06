@@ -1,0 +1,35 @@
+﻿<div class="container search-container" ng-controller="productController as $ctrl">
+    <div class="row">
+        <div class="col-sm-2 col-no-padding">
+            <button class="btn btn-compare bold-text" ng-disabled="$ctrl.selectedStores()" ng-click="$ctrl.allowCompare()">השווה סל קניות</button>
+        </div>
+        <div class="col-sm-9 no-right-padding">
+            <div class="icon-addon addon-lg">
+                <input type="text" class="form-control" ng-click="clear()" ng-model="search">
+                <label class="glyphicon glyphicon-search"></label>
+            </div>
+            <div class="search-result border-dark" ng-show="search">
+                <div class="row center-block" style="border-bottom: 2px solid gray; padding-bottom: 40px; width: 90%;" ng-repeat="product in products | filter : filter | filter : search | limitTo: 10">
+                    <div class="col-sm-2">
+                        <button class="btn" ng-click="addToCart(this);">הוסף</button>
+                    </div>
+                    <div class="col-sm-1 col-no-padding" style="position: relative">
+                        <div class="arrow-up"></div>
+                        <div class="arrow-down"></div>
+                        <input ng-model="quantity" class="input" type="number" min="1" max="99" value="1" />
+                    </div>
+                    <div class="col-sm-7">
+                        {{product.product_name}}
+                        <!--{{product.manufacture_name}}-->
+                    </div>
+                    <div class="col-sm-2">
+                        <img style="height:50px; border: 1px solid gray;" src="../img/empty.gif" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1 col-no-padding search-text">
+            <span class="bold-text">חפש</span>
+        </div>
+    </div>
+</div>

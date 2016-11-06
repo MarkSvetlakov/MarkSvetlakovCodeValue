@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MainDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="chains">
+          <Key>
+            <PropertyRef Name="chain_id" />
+          </Key>
+          <Property Name="chain_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="chain_name" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="products">
+          <Key>
+            <PropertyRef Name="product_id" />
+          </Key>
+          <Property Name="product_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="product_name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="manufacture_name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="unit_quantity" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="quantity" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="unit_measure" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="stores">
+          <Key>
+            <PropertyRef Name="store_id" />
+          </Key>
+          <Property Name="chain_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="store_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="store_name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="report_date" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="stores_products">
+          <Key>
+            <PropertyRef Name="store_id" />
+            <PropertyRef Name="product_id" />
+          </Key>
+          <Property Name="store_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="product_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="product_price" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="price_update_date" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_stores_chains">
+          <End Role="chains" Type="Self.chains" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="stores" Type="Self.stores" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="chains">
+              <PropertyRef Name="chain_id" />
+            </Principal>
+            <Dependent Role="stores">
+              <PropertyRef Name="chain_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_stores_products_products">
+          <End Role="products" Type="Self.products" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="stores_products" Type="Self.stores_products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="products">
+              <PropertyRef Name="product_id" />
+            </Principal>
+            <Dependent Role="stores_products">
+              <PropertyRef Name="product_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_stores_products_stores">
+          <End Role="stores" Type="Self.stores" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="stores_products" Type="Self.stores_products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="stores">
+              <PropertyRef Name="store_id" />
+            </Principal>
+            <Dependent Role="stores_products">
+              <PropertyRef Name="store_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MainDBModelStoreContainer">
+          <EntitySet Name="chains" EntityType="Self.chains" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="products" EntityType="Self.products" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="stores" EntityType="Self.stores" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="stores_products" EntityType="Self.stores_products" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_stores_chains" Association="Self.FK_stores_chains">
+            <End Role="chains" EntitySet="chains" />
+            <End Role="stores" EntitySet="stores" />
+          </AssociationSet>
+          <AssociationSet Name="FK_stores_products_products" Association="Self.FK_stores_products_products">
+            <End Role="products" EntitySet="products" />
+            <End Role="stores_products" EntitySet="stores_products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_stores_products_stores" Association="Self.FK_stores_products_stores">
+            <End Role="stores" EntitySet="stores" />
+            <End Role="stores_products" EntitySet="stores_products" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MainDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="chain">
+          <Key>
+            <PropertyRef Name="chain_id" />
+          </Key>
+          <Property Name="chain_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="chain_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="stores" Relationship="Self.FK_stores_chains" FromRole="chains" ToRole="stores" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="product_id" />
+          </Key>
+          <Property Name="product_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="product_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="manufacture_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="unit_quantity" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="quantity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="unit_measure" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="stores_products" Relationship="Self.FK_stores_products_products" FromRole="products" ToRole="stores_products" />
+        </EntityType>
+        <EntityType Name="store">
+          <Key>
+            <PropertyRef Name="store_id" />
+          </Key>
+          <Property Name="chain_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="store_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="store_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="report_date" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="chain" Relationship="Self.FK_stores_chains" FromRole="stores" ToRole="chains" />
+          <NavigationProperty Name="stores_products" Relationship="Self.FK_stores_products_stores" FromRole="stores" ToRole="stores_products" />
+        </EntityType>
+        <EntityType Name="stores_products">
+          <Key>
+            <PropertyRef Name="store_id" />
+            <PropertyRef Name="product_id" />
+          </Key>
+          <Property Name="store_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="product_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="product_price" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="price_update_date" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="product" Relationship="Self.FK_stores_products_products" FromRole="stores_products" ToRole="products" />
+          <NavigationProperty Name="store" Relationship="Self.FK_stores_products_stores" FromRole="stores_products" ToRole="stores" />
+        </EntityType>
+        <Association Name="FK_stores_chains">
+          <End Role="chains" Type="Self.chain" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="stores" Type="Self.store" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="chains">
+              <PropertyRef Name="chain_id" />
+            </Principal>
+            <Dependent Role="stores">
+              <PropertyRef Name="chain_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_stores_products_products">
+          <End Role="products" Type="Self.product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="stores_products" Type="Self.stores_products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="products">
+              <PropertyRef Name="product_id" />
+            </Principal>
+            <Dependent Role="stores_products">
+              <PropertyRef Name="product_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_stores_products_stores">
+          <End Role="stores" Type="Self.store" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="stores_products" Type="Self.stores_products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="stores">
+              <PropertyRef Name="store_id" />
+            </Principal>
+            <Dependent Role="stores_products">
+              <PropertyRef Name="store_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MainDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="chains" EntityType="Self.chain" />
+          <EntitySet Name="products" EntityType="Self.product" />
+          <EntitySet Name="stores" EntityType="Self.store" />
+          <EntitySet Name="stores_products" EntityType="Self.stores_products" />
+          <AssociationSet Name="FK_stores_chains" Association="Self.FK_stores_chains">
+            <End Role="chains" EntitySet="chains" />
+            <End Role="stores" EntitySet="stores" />
+          </AssociationSet>
+          <AssociationSet Name="FK_stores_products_products" Association="Self.FK_stores_products_products">
+            <End Role="products" EntitySet="products" />
+            <End Role="stores_products" EntitySet="stores_products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_stores_products_stores" Association="Self.FK_stores_products_stores">
+            <End Role="stores" EntitySet="stores" />
+            <End Role="stores_products" EntitySet="stores_products" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MainDBModelStoreContainer" CdmEntityContainer="MainDBEntities">
+          <EntitySetMapping Name="chains">
+            <EntityTypeMapping TypeName="MainDBModel.chain">
+              <MappingFragment StoreEntitySet="chains">
+                <ScalarProperty Name="chain_id" ColumnName="chain_id" />
+                <ScalarProperty Name="chain_name" ColumnName="chain_name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="MainDBModel.product">
+              <MappingFragment StoreEntitySet="products">
+                <ScalarProperty Name="product_id" ColumnName="product_id" />
+                <ScalarProperty Name="product_name" ColumnName="product_name" />
+                <ScalarProperty Name="manufacture_name" ColumnName="manufacture_name" />
+                <ScalarProperty Name="unit_quantity" ColumnName="unit_quantity" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="unit_measure" ColumnName="unit_measure" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="stores">
+            <EntityTypeMapping TypeName="MainDBModel.store">
+              <MappingFragment StoreEntitySet="stores">
+                <ScalarProperty Name="chain_id" ColumnName="chain_id" />
+                <ScalarProperty Name="store_id" ColumnName="store_id" />
+                <ScalarProperty Name="store_name" ColumnName="store_name" />
+                <ScalarProperty Name="report_date" ColumnName="report_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="stores_products">
+            <EntityTypeMapping TypeName="MainDBModel.stores_products">
+              <MappingFragment StoreEntitySet="stores_products">
+                <ScalarProperty Name="store_id" ColumnName="store_id" />
+                <ScalarProperty Name="product_id" ColumnName="product_id" />
+                <ScalarProperty Name="product_price" ColumnName="product_price" />
+                <ScalarProperty Name="price_update_date" ColumnName="price_update_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

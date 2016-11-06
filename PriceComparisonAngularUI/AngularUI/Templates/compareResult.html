@@ -1,0 +1,33 @@
+﻿<div class="row selector-container text-center">
+    <h2 class="bold-text text-compare-result">
+        השוואת סל המוצרים הנבחר
+    </h2>
+</div>
+<div class="container-fluid" ng-controller="resultController as result">
+    <div class="text-center">
+        <div class="col-no-padding" ng-class="result.SetContainerClass(data.IsCheapest)" ng-repeat="data in result.Data">
+            <div class="cheapest-cart" ng-show="data.IsCheapest">
+                <div class="arrow-right"></div>
+                <div class="arrow-left"></div>
+            <span>הזול ביותר</span>
+            </div>
+            <div class="row result">
+                <select class="form-control" ng-model="selectedChain">
+                    <option value="" disabled>{{data.ChainName}}</option>
+                </select>
+                <select class="form-control" ng-model="selectedStore">
+                    <option value="" disabled>{{data.StoreName}}</option>
+                </select>
+            </div>
+            <div class="row result" ng-class="result.SetClass(data.IsCheapest)">
+                <h2 class="bold-text">{{data.TotalPrice}}</h2>
+            </div>
+            <div class="row item-info" ng-repeat="item in data.Products">
+                <div class="col-sm-6 bold-text" ng-class="result.CheckPrice(data, item.Product_Price)">{{item.Product_Price}}</div>
+                <div class="col-sm-6 bold-text">{{item.Product_Name}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

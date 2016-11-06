@@ -1,0 +1,35 @@
+﻿<div class="container">
+    <div class="row cart-row">
+        <div class="col-sm-4"><span class="bold-text">כמות להוספה</span></div>
+        <div class="col-sm-4"><span class="bold-text">יח/משקל</span></div>
+        <div class="col-sm-4"><span class="bold-text">שם המוצר</span></div>
+    </div>
+</div>
+
+<div class="container" ng-controller="cartController">
+    <div class="row cart-result">
+        <div ng-hide="itemsInCart.length">
+            <h3 class="bold-text cart-empty">הסל שלך ריק, הוסף מוצרים לסל</h3>
+        </div>
+        <div ng-show="itemsInCart.length">
+
+
+            <div class="row center-block" style="border-bottom: 2px solid gray; padding:20px 0; width: 90%;" ng-repeat="item in itemsInCart">
+                <div class="col-sm-2">
+                    <button class="btn" ng-click="removeFromCart(this.item)">הסר</button>
+                </div>
+                <div class="col-sm-1 col-no-padding" style="position: relative">
+                    <div class="arrow-up"></div>
+                    <div class="arrow-down"></div>
+                    <input ng-model="quantity" class="input" type="number" min="1" max="99" value="{{item.product.quantity}}" />
+                </div>
+                <div class="col-sm-7">{{item.product.product_name}}</div>
+                <div class="col-sm-2">
+                    <img style="height:50px; border: 1px solid gray;" src="../img/empty.gif" />
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

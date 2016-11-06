@@ -1,0 +1,54 @@
+﻿<div class="row selector-container" ng-controller="chainController as ctrl">
+    <div class="container no-right-padding"><h3 class="bold-text">אתר השוואת המחירים המוביל בישראל</h3></div>
+    <div class="container select-container">
+
+        <div class="row select-row">
+            <div class="col-sm-5">
+                <select class="form-control" ng-model="selectedStore1" ng-change="ctrl.push(selectedStore1, selectedChain1)" ng-options="store.store_name for store in selectedChain1.stores | filter:filter2">
+                    <option value="" disabled>בחר חנות</option>
+                </select>
+            </div>
+            <div class="col-sm-5">
+                <select class="form-control" ng-model="selectedChain1" ng-options="chain.chain_name for chain in chains">
+                    <option value="" disabled>בחר רשת</option>
+                </select>
+            </div>
+            <div class="col-sm-2"><span class="bold-text">בחר חנות 1</span></div>
+        </div>
+
+
+        <div class="row select-row">
+            <div class="col-sm-5">
+                <select class="form-control" ng-model="selectedStore2" ng-change="ctrl.push(selectedStore2, selectedChain2)" ng-options="store.store_name for store in selectedChain2.stores | filter:filter1">
+                    <option value="" disabled>בחר חנות</option>
+                </select>
+            </div>
+            <div class="col-sm-5">
+                <select class="form-control" ng-model="selectedChain2" ng-options="chain.chain_name for chain in chains">
+                    <option value="" disabled>בחר רשת</option>
+                </select>
+            </div>
+            <div class="col-sm-2"><span class="bold-text">בחר חנות 2</span></div>
+        </div>
+
+
+        <div class="row select-row" ng-hide="show">
+            <div class="col-sm-5">
+                <select class="form-control" ng-model="selectedStore3" ng-change="ctrl.push(selectedStore3, selectedChain3)" ng-options="store.store_name for store in selectedChain3.stores">
+                    <option value="" disabled>בחר חנות</option>
+                </select>
+            </div>
+            <div class="col-sm-5">
+                <select class="form-control" ng-model="selectedChain3" ng-options="chain.chain_name for chain in chains">
+                    <option value="" disabled>בחר רשת</option>
+                </select>
+            </div>
+            <div class="col-sm-2"><span class="bold-text">בחר חנות 3</span></div>
+        </div>
+
+
+        <div class="row select-row">
+            <div class="col-sm-10"><a class="add-to-search-text" ng-click="show = false">הוסף חנות להשוואה</a></div>
+        </div>
+    </div>
+</div>
